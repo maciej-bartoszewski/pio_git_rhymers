@@ -25,7 +25,7 @@ public class DefaultCountingOutRhymer {
         return numbers[total];
     }
 
-    public int countOut() {git 
+    public int countOut() {
         if (callCheck())
             return -1;
         return numbers[total--];
