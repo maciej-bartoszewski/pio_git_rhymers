@@ -5,6 +5,7 @@ public class IntLinkedList {
     private static final int IF_EMPTY = -1;
     private Node last;
     private int i;
+    // TODO: usuniecie i, zmienna nie jest uzywana
 
     public void push(int i) {
         if (last == null)
@@ -21,6 +22,7 @@ public class IntLinkedList {
     }
 
     public boolean isFull() {
+        // TODO: funkcja zawsze zwraca false, nalezy napisac jej implementacje
         return false;
     }
 
